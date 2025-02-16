@@ -17,21 +17,15 @@ app.post("/user/signin", (req, res) => {
     })
 })
 
-app.get("/user/purchases", (req, res) => {
+app.post("/user/purchases", (req, res) => {
     res.json({
-        msg: "purchases"
-    })
-})
-
-app.post("/course/purchase", (req, res) => {
-    res.json({
-        msg: "purchase a course"
+        msg: "Signup"
     })
 })
 
 app.get("/courses", (req, res) => {
     res.json({
-        msg: "courses"
+        msg: "Signup"
     })
 })
 

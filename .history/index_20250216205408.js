@@ -13,25 +13,13 @@ app.post("/user/signup", (req, res) => {
 
 app.post("/user/signin", (req, res) => {
     res.json({
-        msg: "signin"
+        msg: "Signup"
     })
 })
 
-app.get("/user/purchases", (req, res) => {
+app.get("/user/signup", (req, res) => {
     res.json({
-        msg: "purchases"
-    })
-})
-
-app.post("/course/purchase", (req, res) => {
-    res.json({
-        msg: "purchase a course"
-    })
-})
-
-app.get("/courses", (req, res) => {
-    res.json({
-        msg: "courses"
+        msg: "Signup"
     })
 })
 

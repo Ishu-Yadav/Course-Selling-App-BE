@@ -31,7 +31,7 @@ app.post("/course/purchase", (req, res) => {
 
 app.get("/courses", (req, res) => {
     res.json({
-        msg: "courses"
+        msg: "Signup"
     })
 })
 
